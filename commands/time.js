@@ -212,7 +212,6 @@ module.exports.run = function (msg) {
 					url: '',
 					fields: [{
 						name: 'Statistics',
-						value: "**Uptime**: " + bot.uptime + "ms" + "\n" +
 							"**Servers**: " + storage.keys().length + " configured, " + bot.guilds.array().length + " total"
 					}]
 				}));
